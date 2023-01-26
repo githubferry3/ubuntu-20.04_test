@@ -4,10 +4,10 @@ on:
     inputs:
       sshPublicKey:
         description: 'SSH public key'
-        required: flase
+        required: false
       exitCode:
         description: 'When set to non-zero, a step will fail causing the SSH server to be started'
-        required: flase
+        required: false
         default: "0"
 
 jobs:
